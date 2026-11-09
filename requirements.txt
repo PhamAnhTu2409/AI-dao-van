@@ -1,0 +1,14 @@
+# Core local document comparison UI
+streamlit==1.50.0
+pypdf==6.1.1
+python-docx==1.2.0
+numpy==2.2.6
+scikit-learn==1.7.2
+
+# Models: install PyTorch CPU-only from https://download.pytorch.org/whl/cpu
+# and then install these packages in the same virtual environment.
+transformers==4.57.1
+huggingface-hub==0.36.0
+safetensors==0.6.2
+sentencepiece==0.2.1
+einops==0.8.1

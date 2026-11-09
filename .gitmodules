@@ -1,0 +1,3 @@
+[submodule "vendor/deepx-embed"]
+	path = vendor/deepx-embed
+	url = https://github.com/dx-tech-ai/deepx-embed.git

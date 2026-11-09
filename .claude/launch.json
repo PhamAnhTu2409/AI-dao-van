@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "daovan-vietnews",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": ["-NoProfile", "-Command", "$env:DAOVAN_INDEX_DIR='data/index_vietnews'; $env:HF_HUB_OFFLINE='1'; $env:TRANSFORMERS_OFFLINE='1'; .\\.venv\\Scripts\\python.exe -m streamlit run app.py --server.address 127.0.0.1 --server.port 8501 --server.headless true --server.showEmailPrompt false --browser.gatherUsageStats false"],
+      "port": 8501
+    }
+  ]
+}
